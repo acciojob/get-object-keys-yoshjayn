@@ -11,3 +11,6 @@ function getKeys(obj) {
 
 // Testing the function
 console.log(getKeys(student)); // Output: ["name"]
+
+window.student = student;
+window.getKeys = getKeys;
